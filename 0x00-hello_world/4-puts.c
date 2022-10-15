@@ -1,5 +1,5 @@
 #include<stdio.h>
-/*
+/**
  *main - Main is the first function of the program
  *Return: this returns zero by default unless stated otherwise
  */
