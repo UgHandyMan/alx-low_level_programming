@@ -2,7 +2,7 @@
 
 /**
  *main - main prints the message
- *return: this returns zero by default
+ *Return: this returns zero by default
 */
 
 int main(void)
