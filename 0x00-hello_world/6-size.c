@@ -2,7 +2,7 @@
 
 /**
  *main - is the point of entry of the program.
- *return: returns a zero by default
+ *Return: returns a zero by default
  */
 
 int main(void)
