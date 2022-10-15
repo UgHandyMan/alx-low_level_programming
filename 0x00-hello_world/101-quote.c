@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include<unistd.h>
+
 /**
  *main - main prints the output provided
  *Return: returns 1 on successful execution
