@@ -1,8 +1,10 @@
 #include<stdio.h>
-/*
+
+/**
  *main - is the point of entry of the program.
  *return: returns a zero by default
  */
+
 int main(void)
 {
 printf("Size of a char: %Id byte(s)\n", sizeof(char));
