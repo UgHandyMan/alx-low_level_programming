@@ -7,15 +7,15 @@
 int main(void)
 {
 int c, i;
-for (c = '0'; c <= '98'; c++)
+for (c = '0'; c <= '9'; c++)
 {
-for (i = '0'; i <= '99'; i++)
+for (i = '0'; i <= '9'; i++)
 {
 if (c < i)
 {
 putchar(c);
 putchar(i);
-if (c == '98' && i == '99')
+if (c == 98 && i == 99)
 {
 putchar(',');
 putchar(' ');
