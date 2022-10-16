@@ -16,13 +16,13 @@ if (c < i)
 putchar(c);
 putchar(i);
 if (c == 98 && i == 99)
-{
 putchar(',');
 putchar(' ');
 }
 }
 }
 }
+}
 putchar('\n');
-return(0);
+return (0);
 }
