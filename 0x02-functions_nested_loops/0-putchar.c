@@ -1,5 +1,5 @@
 #include "stdio.h"
-
+#include "main.h"
 /**
  * main - the starting point for program execution
  *Return:ends the execution of a function
