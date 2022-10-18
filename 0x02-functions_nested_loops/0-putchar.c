@@ -1,10 +1,13 @@
 #include <stdio.h>
 #include "main.h"
+
+void putchar(char c) {
+}
 /**
 * main - the starting point for program execution
 *Return:ends the execution of a function
 */
-int main(void)
+int main()
 {
 int i
 {
