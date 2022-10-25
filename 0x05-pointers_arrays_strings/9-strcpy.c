@@ -14,6 +14,5 @@ while (*(src + l) != '\0')
 *(dest + l) = *(src + l);
 l++;
 }
-*(dest + l) != '\0';
 return (dest);
 }
