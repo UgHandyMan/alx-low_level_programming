@@ -3,7 +3,7 @@
 
 /**
  *reset_to_98 - updates the value as main function
-@n - variable to be printed
+@n: input  variable to be printed
  *Return: returns zero by default unless defined otherwise
  */
 
