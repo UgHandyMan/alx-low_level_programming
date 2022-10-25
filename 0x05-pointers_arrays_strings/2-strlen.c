@@ -8,9 +8,8 @@
 */
 int _strlen(char *s)
 {
-str = "My first strlen!"
 int len = 0;
-while (*s != '0')
+while (*s != '\0')
 {
 len++;
 s++;
