@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
 *_puts - prints a string then new line
 *@str: string variable to be printed
@@ -6,7 +7,7 @@
 */
 void _puts(char *str)
 {
-while (str != ('\0'))
+while (str != '\0')
 {
 _putchar(*str++);
 }
