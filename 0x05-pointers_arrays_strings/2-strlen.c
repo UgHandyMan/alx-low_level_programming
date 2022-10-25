@@ -2,14 +2,14 @@
 #include <stdio.h>
 
 /**
-* _strlen - returns the length of a string 
+*_strlen - returns the length of a string 
 *@s: string variable
 *Return: returns length else is zero
 */
 int _strlen(char *s)
 {
 int len = 0;
-while (*s != '/0')
+while (*s != '0')
 {
 len++;
 s++;
