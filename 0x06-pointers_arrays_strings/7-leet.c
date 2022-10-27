@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-*leet - encodes a string into a numerical value
+*leet - encodes a string into a numerical value 1337
 *@n: input
-*Return: returns an encoded value
+*Return: returns an encoded value of n
 */
 
 char *leet(char *)
