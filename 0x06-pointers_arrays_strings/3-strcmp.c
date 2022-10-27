@@ -1,6 +1,4 @@
 #include "main.h"
-#include<stdio.h>
-#include<unistd.h>
 
 /**
 *_strncat - computes the difference between two strings
