@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
 *_strncat - computes the difference between two strings
