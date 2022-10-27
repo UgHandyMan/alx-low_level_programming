@@ -1,6 +1,4 @@
 #include "main.h"
-#include<stdio.h>
-#include<unistd.h>
 
 /**
 *leet - encodes a string into a numerical value
