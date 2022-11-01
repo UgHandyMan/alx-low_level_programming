@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <unistd.h>
+/**
+*_putchar - prints the output
+*@c: character to be printed
+*Return: returns zero by default
+*/
+int _putchar (char c)
+{
+return (write(1, &c, 1));
+}
