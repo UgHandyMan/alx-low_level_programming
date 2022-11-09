@@ -10,6 +10,6 @@
 
 int main(int argc _attribute_((unsused)), char* argv[])
 {
-printf("the name of the program is : %s\n", *argv);
+printf("%s\n", *argv);
 return (0);
 }
