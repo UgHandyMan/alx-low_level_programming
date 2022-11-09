@@ -8,7 +8,7 @@
  *Return: zero by default
  */
 
-int main(int argc _attribute_((unsused)), char *argv[])
+int main(int argc, char *argv[])
 {
 printf("%s\n", *argv);
 return (0);
