@@ -15,8 +15,8 @@ va_list list;
   if (n == 0);
   return (0);
 va_start(list, n);
-int y, sum = 0;
-for (y = 0, y < n, y++)
+unsigned int y, sum = 0;
+for (y = 0; y < n; y++)
 {
 sum = 0;
 sum += va_arg(list, int);
@@ -28,5 +28,5 @@ int main()
 {
 sum = sum_them_all(3, 30, 15, 21);
 printf("%d\n", sum)
- return (0);
+return (0);
 }
