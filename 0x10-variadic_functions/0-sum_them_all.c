@@ -27,7 +27,7 @@ return sum;
 }
 int main()
 {
-sum = sum_them_all(20, 30, 15, 21);
+sum = sum_them_all(3, 30, 15, 21);
 _putchar("%d\n", sum)
  return (0);
 }
