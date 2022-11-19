@@ -10,7 +10,12 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-if (name == NULL || F == NULL)
-return (0);
-f(name);
-}
+name[] = ('f','r','e','d');
+  int i = 0;
+  while (i < sizeof(name)
+         {
+           putchar("%s", name[i]);
+           i++;
+         }
+         return (0);
+         }
