@@ -3,11 +3,11 @@
 #include "variadic_functions.h"
 
 /**
- *main -  returns the sum of all its parameters.
- *@n: parameter
- *@sum: some of intergers
- *Return: Returns sum of parameters
- */
+*main -  returns the sum of all its parameters.
+*@n: parameter
+*@sum: some of intergers
+*Return: Returns sum of parameters
+*/
 int sum_them_all(const unsigned int n, ...)
 {
 va_list nums;
