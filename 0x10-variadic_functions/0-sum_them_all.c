@@ -3,8 +3,9 @@
 #include "variadic_functions.h"
 
 /**
-*main -  returns the sum of all its parameters.
+*sum_them_all -  returns the sum of all its parameters.
 *@n: parameter
+*@index: interger
 *@sum: some of intergers
 *Return: Returns sum of parameters
 */
