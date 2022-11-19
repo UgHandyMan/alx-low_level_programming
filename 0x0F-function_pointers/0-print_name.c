@@ -14,8 +14,8 @@ name[] = ('f', 'r', 'e', 'd');
 int i = 0;
 while (i < sizeof(name))
 {
-putchar("%c", name[i]);
+printf("%c", name[i]);
 i++;
 }
-return (0);
+return (name);
 }
