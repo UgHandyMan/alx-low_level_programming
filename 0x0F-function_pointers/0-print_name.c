@@ -12,7 +12,7 @@ void print_name(char *name, void (*f)(char *))
 {
 name[] = ('f', 'r', 'e', 'd');
 int i = 0;
-while (i < sizeof(name)
+while (i < sizeof(name))
 {
 putchar("%c", name[i]);
 i++;
