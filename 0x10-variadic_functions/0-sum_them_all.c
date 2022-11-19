@@ -5,28 +5,16 @@
 /**
  *main -  returns the sum of all its parameters.
  *@n: parameter
- *@y: interger
+ *@sum: some of intergers
  *Return: Returns sum of parameters
  */
-
 int sum_them_all(const unsigned int n, ...)
 {
-va_list list;
-  if (n == 0);
-  return (0);
-va_start(list, n);
-unsigned int y, sum = 0;
-for (y = 0; y < n; y++)
-{
-sum = 0;
-sum += va_arg(list, int);
-}
-va_end(list)
-return sum;
-}
-int main()
-{
-sum = sum_them_all(3, 30, 15, 21);
-printf("%d\n", sum)
-return (0);
+va_list nums;
+unsigned int index, sum = 0;
+va_start(nums, n);
+for (index = 0; index < n; index++)
+sum += va_arg(nums, int);
+va_end(nums);
+return (sum);
 }
