@@ -17,5 +17,5 @@ while (i < sizeof(name))
 printf("%c", name[i]);
 i++;
 }
-return (name);
+return (1);
 }
