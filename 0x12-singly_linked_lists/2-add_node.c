@@ -22,6 +22,6 @@ return (NULL);
 new->str = strdup(str);
 new->len = len;
 new->next = *head;
-	 *head = new;
+*head = new;
 return(*head);
  }
