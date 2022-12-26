@@ -5,24 +5,23 @@
 
 /**
 *print_list - print elements in a linked list
-*@h: pointer to head node
+*@next: pointer to head node
 *
 *Return: Zero by default
 */
 
-size_t print_list(const list_t *h)
-{
-const list_t *cursor = h;
-size_t n = 0;
-while (h)
-{
-if (!h->str)
-printf("[%d] %s\n", h->len, h->str);
-else
-printf("[0] (nil)\n");
-h = h->next
-  n++
+typedef struct list_t {
+int value;
+struct list_t *next;
+} list_t;
+
+size_t print_list(const list_t *h) {
+size_t count = 0;
+while (h != NULL) {
+printf("%d ", h->value);
+h = h->next;
+count++;
 }
-return (n)
+printf("\n");
+return count;
 }
-  
